@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4674084778991582559}
   - component: {fileID: 1605392329628151100}
   - component: {fileID: 4689884312015957271}
-  m_Layer: 0
+  - component: {fileID: 7096117253854924584}
+  m_Layer: 6
   m_Name: AsteroidPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,3 +98,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7096117253854924584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5046711109190860939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cca7e38be2f34b49b583ce0de93fae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minLifeTime: 1
+  maxLifeTime: 3
