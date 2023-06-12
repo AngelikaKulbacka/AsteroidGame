@@ -61,7 +61,7 @@ public class AsteroidSpawner : MonoBehaviour
         }
         else if (currentAsteroidCount > maxAsteroidCount)
         {
-            int asteroidsToRemove = currentAsteroidCount - Random.Range(minAsteroidCount, currentAsteroidCount - maxAsteroidCount + 1);
+            int asteroidsToRemove = currentAsteroidCount - Random.Range(minAsteroidCount, maxAsteroidCount + 1);
 
             for (int i = 0; i < asteroidsToRemove; i++)
             {

@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\AsteroidController.cs" />
-    <Compile Include="Assets\SimpleCamera.cs" />
+    <Compile Include="Assets\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

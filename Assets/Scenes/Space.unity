@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -381,6 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991bf679bf3f28743b7a0f4c3f569744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera: {fileID: 963194227}
 --- !u!1 &1830566338
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +414,7 @@ MonoBehaviour:
   asteroidPrefab: {fileID: 5046711109190860939, guid: b25fb5f6cf0b6664eaacbbd945192956, type: 3}
   minAsteroidCount: 5
   maxAsteroidCount: 10
-  spawnRadius: 10
+  spawnRadius: 5
 --- !u!4 &1830566340
 Transform:
   m_ObjectHideFlags: 0
