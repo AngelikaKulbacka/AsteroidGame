@@ -57,9 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AsteroidSpawner.cs" />
+    <Compile Include="Assets\Scripts\PointsDisplay.cs" />
     <Compile Include="Assets\Scripts\AsteroidController.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\PointsDisplay.cs" />
+    <Compile Include="Assets\Scripts\StartMenu.cs" />
+    <Compile Include="Assets\Scripts\EndMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
