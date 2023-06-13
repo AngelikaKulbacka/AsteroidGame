@@ -112,3 +112,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minLifeTime: 1
   maxLifeTime: 3
+  maxHealth: 3
+  damagePoints: 1
+  doubleClickTime: 0.3
+  blueMaterial: {fileID: 2100000, guid: 0f87d52d6fd87da4080d5760eaee8d18, type: 2}
+  greenMaterial: {fileID: 2100000, guid: 64a399bc971c7b74eaff2bfe945bb5f8, type: 2}
+  redMaterial: {fileID: 2100000, guid: 52fad6718f020784cbfd81875dde3159, type: 2}
